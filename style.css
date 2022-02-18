@@ -1,13 +1,15 @@
 #main {
   width: 100%;
   height: 50px;
-  background-color: red;
+  background-color: #7171ff;
   border-radius: 25px;
-  text-align: center; }
+  text-align: center;
+  margin-top: 20px; }
 
 span i {
   margin-top: 7px;
-  color: white; }
+  color: black;
+  text-shadow: 0px 10px 5px white; }
 
 .left {
   width: 250px;
@@ -25,17 +27,38 @@ span i {
 .right input {
   width: 200px;
   height: 25px;
-  border-radius: 25px;
+  border-radius: 1px;
   background-color: transparent;
   border: transparent;
-  border-bottom: 3px solid black; }
+  border-bottom: 2px solid white;
+  text-shadow: 10px 5px 8px red; }
+  .right input::placeholder {
+    color: wheat;
+    text-align: center; }
 
 ul {
   list-style: none;
   display: flex;
-  margin-left: -30px; }
+  margin-left: -30px;
+  margin-top: -10px; }
 
 ul li {
-  margin-left: 20px; }
+  margin-left: 20px;
+  margin-right: -10px;
+  background-color: transparent;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%; }
+  ul li:hover {
+    background-color: white; }
+
+a {
+  color: black; }
+  a:hover {
+    color: #7171ff; }
+
+ul li a i {
+  margin-top: 35px;
+  text-shadow: -10px 5px 4px red; }
 
 /*# sourceMappingURL=style.css.map */
