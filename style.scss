@@ -1,0 +1,47 @@
+@mixin weh($w, $h){
+    width: $w;
+    height: $h;
+}
+
+#main{
+    @include weh(100%, 50px);
+    background-color: red;
+    border-radius: 25px;
+    text-align: center;
+}
+
+span i{
+    margin-top: 7px;
+    color: white;
+}
+
+.left{
+    @include weh(250px, 35px);
+    float: left;
+    margin-left: 50px;
+    text-decoration: none; 
+}
+
+.right{
+    float: right;
+    @include weh(300px, 35px);
+    margin-top: 7px;
+}
+
+.right input{
+    @include weh(200px, 25px);
+    border-radius: 25px;
+    background-color: transparent;
+    border: transparent;
+    border-bottom: 3px solid black;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    margin-left: -30px;
+}
+
+ul li{
+    margin-left: 20px;
+}
