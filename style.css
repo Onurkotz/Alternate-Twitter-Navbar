@@ -10,13 +10,13 @@
   margin-top: 20px;
   box-shadow: 0px 5px 25px #c7c7ff, 0px 5px 10px darkblue; }
 
-span i {
+span i.fa-twitter {
   margin-top: 7px;
+  margin-left: 220px;
   color: black;
   text-shadow: 0px 0px 10px white;
   animation: colour 2s infinite;
   animation-direction: alternate; }
-
 @keyframes colour {
   0% {
     text-shadow: 0px 0px 10px white; }
@@ -35,12 +35,19 @@ span i {
 
 .right {
   float: right;
-  width: 300px;
+  width: 500px;
   height: 35px;
-  margin-top: 7px; }
+  margin-top: 7px;
+  margin-right: 20px; }
+
+#user {
+  margin-top: 12px;
+  margin-right: 20px;
+  position: absolute; }
 
 .right input {
   margin-top: 3px;
+  margin-left: 90px;
   width: 200px;
   height: 25px;
   border-radius: 1px;
@@ -61,20 +68,9 @@ span i {
 ul {
   list-style: none;
   display: flex;
-  margin-left: -30px;
-  margin-top: -10px; }
+  margin-top: -10px;
+  margin-left: -30px; }
 
-/*ul li{
-    margin-left: 20px;
-    margin-right: -10px;
-    background-color: transparent;
-    @include weh(70px, 70px);
-    border-radius: 50%;
-    &:hover{
-        background-color: white;
-    }
-
-}*/
 a {
   color: black; }
   a:hover {
@@ -82,7 +78,7 @@ a {
 
 ul li a i {
   margin-top: 35px;
-  text-shadow: 0px 0px 5px white;
-  margin-left: 40px; }
+  margin-left: 60px;
+  text-shadow: 0px 0px 5px white; }
 
 /*# sourceMappingURL=style.css.map */
